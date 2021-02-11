@@ -9,6 +9,7 @@ jenkins/3
 Jenkins/2
 JENKINS
 jenk
+jenkins
 """
 
 
