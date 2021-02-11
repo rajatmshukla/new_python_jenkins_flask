@@ -10,6 +10,8 @@ Jenkins/2
 JENKINS
 jenk
 jenkins
+
+jenkins pipeline
 """
 
 
