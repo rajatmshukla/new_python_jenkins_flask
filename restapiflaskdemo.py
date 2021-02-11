@@ -73,7 +73,7 @@ def createProduct():
     result=product_schema.dump(product.create())
     return make_response(jsonify({'product':result}),201)
 
-@app.route('/products',methods=['GET'])    
+@app.route('/ibm',methods=['GET'])    
 def getAllProducts():
     get_products=Product.query.all()
     productSchema=ProductSchema(many=True)
